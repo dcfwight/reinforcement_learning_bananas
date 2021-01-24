@@ -1,6 +1,7 @@
 # import the Pytorch submodules required to create neural network
 import torch.nn as nn
 import torch.nn.functional as F
+import torch
 
 # create a deep network
 
