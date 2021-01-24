@@ -13,6 +13,7 @@ TAU = 1e-3             # for soft update of target parameters. Original set at 1
 LR = 5e-4              # learning rate. Original set at 5e-4
 UPDATE_EVERY = 4       # how often to update the network
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") # use GPU if available, otherwise CPU
 
 # set up the agent
 class Agent():
