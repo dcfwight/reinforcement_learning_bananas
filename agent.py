@@ -1,4 +1,4 @@
-from network import Qnetwork # neural network
+from network import QNetwork # neural network
 import random
 import torch.optim as optim
 from collections import namedtuple, deque
