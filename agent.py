@@ -3,6 +3,7 @@ import random
 import torch.optim as optim
 from collections import namedtuple, deque
 import torch
+import torch.nn.functional as F
 import numpy as np
 
 # set up the hyperparameters to use
